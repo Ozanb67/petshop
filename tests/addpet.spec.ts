@@ -3,7 +3,7 @@ import "mocha";
 import { Builder } from "selenium-webdriver";
 import { AllPages } from "../pageObjects";
 
-describe("Add pet", function() {
+describe("Add & get pet", function() {
     let pages: AllPages;
 
     before("Open browser", function() {
